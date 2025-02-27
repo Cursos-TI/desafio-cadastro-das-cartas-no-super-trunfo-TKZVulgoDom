@@ -7,16 +7,16 @@
 //Teste larissa
 
 int main() {
-    char Pais [15] = Brasil;
+    char Pais [15] = "Brasil";
     int Populacao = 1000;
     float Area = 1.8923;
     float PIB = 3.671;
     int  pontosturisticos = 71;
 
-    printf("Bem-vindo ao cadastro de cartas, aperte enter para iniciar!");
+    printf("Bem-vindo ao cadastro de cartas! : \n");
 
-    printf("Digite o nome do Pais");
-    scanf("%s", &Pais);
+    printf("Digite o nome do Pais \n");
+    scanf("%s", Pais);
 
 
     printf("Digite a populacao : \n");
@@ -26,17 +26,17 @@ int main() {
     scanf("%f", &Area);
 
     printf("Digite o PIB : \n");
-    scanf("%f, &PIB");
+    scanf("%f", &PIB);
 
 
     printf("Digite a quantidade de pontos turisticos : \n");
     scanf("%d", &pontosturisticos);
 
-    printf("Pais : %s\n");
-    printf("Populacao : %d\n");
-    printf("Area: %f\n");
-    printf("PIB: %f\n");
-    printf("pontosturisticos: %d\n");
+    printf("Pais : %s\n", Pais);
+    printf("Populacao : %d\n", Populacao);
+    printf("Area: %f\n", Area);
+    printf("PIB: %f\n", PIB);
+    printf("pontosturisticos: %d\n", "pontosturisticos");
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
