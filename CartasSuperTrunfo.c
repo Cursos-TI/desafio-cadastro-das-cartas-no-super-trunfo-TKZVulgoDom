@@ -7,6 +7,38 @@
 //Teste larissa
 
 int main() {
+    char Pais [15] = Brasil;
+    int Populacao = 1000;
+    float Area = 1.8923;
+    float PIB = 3.671;
+    int  pontosturisticos = 71;
+
+    printf("Bem-vindo ao cadastro de cartas, aperte enter para iniciar!");
+
+    printf("Digite o nome do Pais");
+    scanf("%s", &Pais);
+
+
+    printf("Digite a populacao : \n");
+    scanf("%d", &Populacao);
+
+    printf("Digite a Area : \n");
+    scanf("%f", &Area);
+
+    printf("Digite o PIB : \n");
+    scanf("%f, &PIB");
+
+
+    printf("Digite a quantidade de pontos turisticos : \n");
+    scanf("%d", &pontosturisticos);
+
+    printf("Pais : %s\n");
+    printf("Populacao : %d\n");
+    printf("Area: %f\n");
+    printf("PIB: %f\n");
+    printf("pontosturisticos: %d\n");
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
