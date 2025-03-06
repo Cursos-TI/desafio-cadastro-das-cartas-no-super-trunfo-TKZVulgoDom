@@ -38,18 +38,17 @@ int main() {
 
     printf("Pais : %s\n", Pais);
     printf("Populacao : %d\n", Populacao);
-    printf("Area: %f\n", Area);
-    printf("PIB: %f\n", PIB);
-    printf("pontosturisticos: %d\n", "pontosturisticos");
+    printf("Area: %.2f\n", Area);
+    printf("PIB: %.2f\n", PIB);
+    printf("pontosturisticos: %d\n", pontosturisticos);
 
-    printf("Para confirmar, aperte ENTER! : \n");
-    scanf("%d", );
+    printf("\n\n");
 
-
-    /*Segunda carta Apos a confirmação da primeira*/
+    /*Segunda carta após 2 espaços*/
 
     printf("Digite as informações da proxima carta! \n");
 
+    printf("\n");
 
     printf("Digite o CodUnic \n");
     scanf("%s", CodUnic);
@@ -73,14 +72,9 @@ int main() {
 
     printf("Pais : %s\n", Pais);
     printf("Populacao : %d\n", Populacao);
-    printf("Area: %f\n", Area);
-    printf("PIB: %f\n", PIB);
-    printf("pontosturisticos: %d\n", "pontosturisticos");
-
-
-
-
-
+    printf("Area: %.2f\n", Area);
+    printf("PIB: %.2f\n", PIB);
+    printf("pontosturisticos: %d\n", pontosturisticos);
 
     /*aiai*/
 
