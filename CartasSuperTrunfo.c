@@ -38,8 +38,8 @@ int main() {
 
     printf("Pais : %s\n", Pais);
     printf("Populacao : %d\n", Populacao);
-    printf("Area: %.2f\n", Area);
-    printf("PIB: %.2f\n", PIB);
+    printf("Area: %f\n", Area);
+    printf("PIB: %f\n", PIB);
     printf("pontosturisticos: %d\n", pontosturisticos);
 
     printf("\n\n");
@@ -72,8 +72,8 @@ int main() {
 
     printf("Pais : %s\n", Pais);
     printf("Populacao : %d\n", Populacao);
-    printf("Area: %.2f\n", Area);
-    printf("PIB: %.2f\n", PIB);
+    printf("Area: %f\n", Area);
+    printf("PIB: %f\n", PIB);
     printf("pontosturisticos: %d\n", pontosturisticos);
 
     /*aiai*/
