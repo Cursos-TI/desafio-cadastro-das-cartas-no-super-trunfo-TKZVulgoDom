@@ -7,6 +7,7 @@
 //Teste larissa
 
 int main() {
+    char CodUnic [20] = "G1";
     char Pais [15] = "Brasil";
     int Populacao = 1000;
     float Area = 1.8923;
@@ -14,6 +15,9 @@ int main() {
     int  pontosturisticos = 71;
 
     printf("Bem-vindo ao cadastro de cartas! : \n");
+
+    printf("Digite o CodUnic \n");
+    scanf("%s", CodUnic);
 
     printf("Digite o nome do Pais \n");
     scanf("%s", Pais);
@@ -37,6 +41,46 @@ int main() {
     printf("Area: %f\n", Area);
     printf("PIB: %f\n", PIB);
     printf("pontosturisticos: %d\n", "pontosturisticos");
+
+    printf("Para confirmar, aperte ENTER! : \n");
+    scanf("%d", );
+
+
+    /*Segunda carta Apos a confirmação da primeira*/
+
+    printf("Digite as informações da proxima carta! \n");
+
+
+    printf("Digite o CodUnic \n");
+    scanf("%s", CodUnic);
+
+    printf("Digite o nome do Pais \n");
+    scanf("%s", Pais);
+
+
+    printf("Digite a populacao : \n");
+    scanf("%d", &Populacao);
+
+    printf("Digite a Area : \n");
+    scanf("%f", &Area);
+
+    printf("Digite o PIB : \n");
+    scanf("%f", &PIB);
+
+
+    printf("Digite a quantidade de pontos turisticos : \n");
+    scanf("%d", &pontosturisticos);
+
+    printf("Pais : %s\n", Pais);
+    printf("Populacao : %d\n", Populacao);
+    printf("Area: %f\n", Area);
+    printf("PIB: %f\n", PIB);
+    printf("pontosturisticos: %d\n", "pontosturisticos");
+
+
+
+
+
 
     /*aiai*/
 
